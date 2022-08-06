@@ -1,3 +1,5 @@
+package strategy_pattern;
+
 public class Giraffe extends Creature{
 
 	private String name;

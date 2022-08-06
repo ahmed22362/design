@@ -1,3 +1,6 @@
+
+package strategy_pattern;
+
 public interface Living{
        public void setName(String newme);
        public String getName();

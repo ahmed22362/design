@@ -1,3 +1,5 @@
+package strategy_pattern;
+
 public class WorkWithAnimals{
 	
 	

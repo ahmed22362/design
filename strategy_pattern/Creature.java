@@ -1,6 +1,7 @@
 //If you don't want the user to create objects from
 //a class mark it as abstract.
 //Subclasses can still extend it
+package strategy_pattern;
 
 abstract public class Creature{
 	

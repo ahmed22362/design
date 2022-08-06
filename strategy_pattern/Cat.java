@@ -1,3 +1,5 @@
+package strategy_pattern;
+
 public class Cat extends Animal{
 	
 	// The constructor initializes all objects

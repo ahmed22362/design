@@ -1,3 +1,5 @@
+package strategy_pattern;
+
 //interface for stategy pattern by make class for every algorthm
 interface Flys {
     String fly();

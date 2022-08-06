@@ -1,3 +1,5 @@
+package strategy_pattern;
+
 public class Dog extends Animal{
 	
 	public void digHole(){
