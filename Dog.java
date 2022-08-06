@@ -32,12 +32,13 @@ public class Dog extends Animal{
 		
 		// Executes the parents constructor
 		// Every class has a constructor whether you make it or not
-		
 		super();
-		
 		// Sets bark for all Dog objects by default
 		
 		setSound("Bark");
+
+		//set the abilty by poly
+		flyingType = new CanNotFly();
 		
 	}
 	

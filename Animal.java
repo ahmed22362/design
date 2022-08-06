@@ -6,6 +6,9 @@ public class Animal {
 	private String favFood;
 	private double speed;
 	private String sound;
+
+	public Flys flyingType; 
+
 	
 	public void setName(String newName){ name = newName; }
 	public String getName(){ return name; }
@@ -33,19 +36,26 @@ public class Animal {
 	
 	// A private method can only be accessed by other public methods
 	// that are in the same class
-	
-	private void bePrivate(){
-		System.out.println("I'm a private method");
+	/*
+	 * you dont want to add every thing in the main or context class the
+	 * if you have many algorth to do the same thing then use statgy pattern 
+	 * by making an interface haveing the target method 
+	 * and make a class for evey algorthm and implent it 
+	 *
+	 *	Bad code
+	 	public void fly(){
+			System.out.println("I can fly");
+		}
+	 *  
+	 */	
+
+	public String tryToFly(){
+		return flyingType.fly();
 	}
-	
-	public static void main(String[] args){
-		
-		Animal dog = new Animal();
-		
-		dog.setName("Grover");
-		
-		System.out.println(dog.getName());
-		
+
+	public void setFlyingAbility(Flys newFlys){
+		flyingType = newFlys;
 	}
+
 	
 }
